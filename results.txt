@@ -1,0 +1,49 @@
+
+--------------------------------------------- Model trained without dropout
+
+
+Hidden Layers without dropout
+
+==> Resuming from checkpoint..
+ [================================================================>]  Step: 88ms | Tot: 10s37ms | Loss: 0.545 | Acc: 81.400% (8140/10000) 100/100
+
+Hidden Layers with dropout
+
+==> Resuming from checkpoint..
+ [================================================================>]  Step: 119ms | Tot: 10s784ms | Loss: 0.594 | Acc: 79.620% (7962/10000) 100/100 
+ 
+Hidden Layers with another dropout 
+ 
+ ==> Resuming from checkpoint..
+ [================================================================>]  Step: 93ms | Tot: 10s687ms | Loss: 0.676 | Acc: 76.440% (7644/10000) 100/100
+ 
+Data with another dropout 
+ 
+ ==> Resuming from checkpoint..
+ [================================================================>]  Step: 105ms | Tot: 10s535ms | Loss: 0.757 | Acc: 74.240% (7424/10000) 100/100 
+ 
+ 
+ 
+ 
+--------------------------------------------- Model trained with dropout
+ 
+ 
+Hidden Layers without dropout
+ 
+ ==> Resuming from checkpoint..
+ [================================================================>]  Step: 128ms | Tot: 10s161ms | Loss: 0.568 | Acc: 80.910% (8091/10000) 100/100 
+ 
+Hidden Layers with dropout
+ 
+ ==> Resuming from checkpoint..
+ [================================================================>]  Step: 87ms | Tot: 10s265ms | Loss: 0.588 | Acc: 80.310% (8031/10000) 100/100 
+ 
+Hidden Layers with another dropout 
+ 
+ ==> Resuming from checkpoint..
+ [================================================================>]  Step: 93ms | Tot: 9s800ms | Loss: 0.640 | Acc: 78.230% (7823/10000) 100/100 
+ 
+Data with another dropout  
+
+ ==> Resuming from checkpoint..
+ [================================================================>]  Step: 100ms | Tot: 9s762ms | Loss: 0.726 | Acc: 75.290% (7529/10000) 100/100
